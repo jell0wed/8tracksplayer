@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/logo">
+        <file>Resources/8tracks.png</file>
+        <file>Resources/ajax-loader.gif</file>
+    </qresource>
+</RCC>

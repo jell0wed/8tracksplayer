@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/core">
+        <file>Resources/8tracks.png</file>
+        <file>Resources/exit_icon.png</file>
+        <file>Resources/explore_icon.png</file>
+        <file>Resources/playing_icon.png</file>
+        <file>Resources/user_icon.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/8tracksLOGO">
+        <file>Resources/8tracks.png</file>
+    </qresource>
+</RCC>

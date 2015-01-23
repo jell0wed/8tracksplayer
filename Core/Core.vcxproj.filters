@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Requests">
+      <UniqueIdentifier>{0c2b0285-7825-4ef6-be33-63618b769f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Responses">
+      <UniqueIdentifier>{2b995a00-78f4-4b27-9f71-ac19e205010a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Responses">
+      <UniqueIdentifier>{f711aced-3d9e-4456-86e3-5e9e6d3b98a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Requests">
+      <UniqueIdentifier>{e003a660-f8b5-45c2-99d5-7aed5afa88c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\pugixml">
+      <UniqueIdentifier>{cc83f533-d023-4a48-a2af-cf02d3111b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\pugixml">
+      <UniqueIdentifier>{2cbce50b-da2d-4ea0-b05f-62ea7245b793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Entities">
+      <UniqueIdentifier>{61e8cefd-91f5-4bcc-80e5-902d42edd7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Entities">
+      <UniqueIdentifier>{2e5cd9a4-f6fd-4f8b-839e-c317979833f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="APIManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRequest.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="URI.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginRequest.h">
+      <Filter>Fichiers d%27en-tête\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="Http_Enums.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Defines.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugiconfig.hpp">
+      <Filter>Fichiers d%27en-tête\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml\pugixml.hpp">
+      <Filter>Fichiers d%27en-tête\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseResponse.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginResponse.h">
+      <Filter>Fichiers d%27en-tête\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLDecomposable.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestFactory.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponseFactory.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MixSearchRequest.h">
+      <Filter>Fichiers d%27en-tête\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="MixSearchResponse.h">
+      <Filter>Fichiers d%27en-tête\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="Mix.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayTokenRequest.h">
+      <Filter>Fichiers d%27en-tête\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayTokenResponse.h">
+      <Filter>Fichiers d%27en-tête\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSetRequest.h">
+      <Filter>Fichiers d%27en-tête\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="GetSetResponse.h">
+      <Filter>Fichiers d%27en-tête\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="Track.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="8TracksAPI.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="I8tracksAPI.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayReportRequest.h">
+      <Filter>Fichiers d%27en-tête\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayReportResponse.h">
+      <Filter>Fichiers d%27en-tête\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="GetTagsRequest.h">
+      <Filter>Fichiers d%27en-tête\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="GetTagsResponse.h">
+      <Filter>Fichiers d%27en-tête\Responses</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Pagination.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GetMixRequest.h">
+      <Filter>Fichiers d%27en-tête\Requests</Filter>
+    </ClInclude>
+    <ClInclude Include="GetMixResponse.h">
+      <Filter>Fichiers d%27en-tête\Responses</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="APIManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="URI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRequest.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginRequest.cpp">
+      <Filter>Fichiers sources\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml\pugixml.cpp">
+      <Filter>Fichiers sources\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginResponse.cpp">
+      <Filter>Fichiers sources\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseResponse.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLDecomposable.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestFactory.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponseFactory.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MixSearchRequest.cpp">
+      <Filter>Fichiers sources\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="MixSearchResponse.cpp">
+      <Filter>Fichiers sources\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="Mix.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayTokenRequest.cpp">
+      <Filter>Fichiers sources\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSetRequest.cpp">
+      <Filter>Fichiers sources\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="GetSetResponse.cpp">
+      <Filter>Fichiers sources\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="Track.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="8TracksAPI.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayReportRequest.cpp">
+      <Filter>Fichiers sources\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayReportResponse.cpp">
+      <Filter>Fichiers sources\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayTokenResponse.cpp">
+      <Filter>Fichiers sources\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="GetTagsRequest.cpp">
+      <Filter>Fichiers sources\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="GetTagsResponse.cpp">
+      <Filter>Fichiers sources\Responses</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GetMixRequest.cpp">
+      <Filter>Fichiers sources\Requests</Filter>
+    </ClCompile>
+    <ClCompile Include="GetMixResponse.cpp">
+      <Filter>Fichiers sources\Responses</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

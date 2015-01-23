@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="8TracksLOGO">
+    <file>img_src/8tracks.png</file>
+  </qresource>
+  <qresource prefix="lineEdit">
+    <file>img_src/qlineedit_bg.jpg</file>
+  </qresource>
+</RCC>

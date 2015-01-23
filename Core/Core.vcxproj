@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3191F680-911F-454F-BA2D-C474D950959F}</ProjectGuid>
+    <RootNamespace>Core</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\libcurl\include;$(BOOST_ROOT);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(SolutionDir)\libcurl;$(BOOST_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)\libcurl\include;$(BOOST_ROOT);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(SolutionDir)\libcurl;$(BOOST_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="8TracksAPI.h" />
+    <ClInclude Include="APIManager.h" />
+    <ClInclude Include="API_Defines.h" />
+    <ClInclude Include="BaseRequest.h" />
+    <ClInclude Include="BaseResponse.h" />
+    <ClInclude Include="GetMixRequest.h" />
+    <ClInclude Include="GetMixResponse.h" />
+    <ClInclude Include="GetSetRequest.h" />
+    <ClInclude Include="GetSetResponse.h" />
+    <ClInclude Include="GetTagsRequest.h" />
+    <ClInclude Include="GetTagsResponse.h" />
+    <ClInclude Include="Http_Enums.h" />
+    <ClInclude Include="I8tracksAPI.h" />
+    <ClInclude Include="LoginRequest.h" />
+    <ClInclude Include="LoginResponse.h" />
+    <ClInclude Include="Mix.h" />
+    <ClInclude Include="MixSearchRequest.h" />
+    <ClInclude Include="MixSearchResponse.h" />
+    <ClInclude Include="Pagination.h" />
+    <ClInclude Include="PlayReportRequest.h" />
+    <ClInclude Include="PlayReportResponse.h" />
+    <ClInclude Include="PlayTokenRequest.h" />
+    <ClInclude Include="PlayTokenResponse.h" />
+    <ClInclude Include="pugixml\pugiconfig.hpp" />
+    <ClInclude Include="pugixml\pugixml.hpp" />
+    <ClInclude Include="RequestFactory.h" />
+    <ClInclude Include="ResponseFactory.h" />
+    <ClInclude Include="Set.h" />
+    <ClInclude Include="Tag.h" />
+    <ClInclude Include="Track.h" />
+    <ClInclude Include="URI.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="XMLDecomposable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="8TracksAPI.cpp" />
+    <ClCompile Include="APIManager.cpp" />
+    <ClCompile Include="BaseRequest.cpp" />
+    <ClCompile Include="BaseResponse.cpp" />
+    <ClCompile Include="GetMixRequest.cpp" />
+    <ClCompile Include="GetMixResponse.cpp" />
+    <ClCompile Include="GetSetRequest.cpp" />
+    <ClCompile Include="GetSetResponse.cpp" />
+    <ClCompile Include="GetTagsRequest.cpp" />
+    <ClCompile Include="GetTagsResponse.cpp" />
+    <ClCompile Include="LoginRequest.cpp" />
+    <ClCompile Include="LoginResponse.cpp" />
+    <ClCompile Include="Mix.cpp" />
+    <ClCompile Include="MixSearchRequest.cpp" />
+    <ClCompile Include="MixSearchResponse.cpp" />
+    <ClCompile Include="PlayReportRequest.cpp" />
+    <ClCompile Include="PlayReportResponse.cpp" />
+    <ClCompile Include="PlayTokenRequest.cpp" />
+    <ClCompile Include="PlayTokenResponse.cpp" />
+    <ClCompile Include="pugixml\pugixml.cpp" />
+    <ClCompile Include="RequestFactory.cpp" />
+    <ClCompile Include="ResponseFactory.cpp" />
+    <ClCompile Include="Set.cpp" />
+    <ClCompile Include="Tag.cpp" />
+    <ClCompile Include="Track.cpp" />
+    <ClCompile Include="URI.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="XMLDecomposable.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>Resources/Gnome-Media-Skip-Forward-32.png</file>
+    <file>Resources/Pause.png</file>
+    <file>Resources/play.png</file>
+    <file>Resources/exit_icon.png</file>
+    <file>Resources/playing_icon.png</file>
+    <file>Resources/user_icon.png</file>
+    <file>Resources/explore_icon.png</file>
+  </qresource>
+</RCC>

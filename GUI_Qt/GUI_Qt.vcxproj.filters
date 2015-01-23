@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\Widgets">
+      <UniqueIdentifier>{6d6d7f9f-af59-4212-9144-30c2d73164ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Widgets">
+      <UniqueIdentifier>{576aeb76-84fa-4514-af56-4ea6237fadd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{5fad036c-e8e7-4239-b854-1a31c478f8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{aa00cbec-6538-4448-983f-c4827dbe2bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{21186d32-74ff-4bf2-80c0-af9ffd9cf894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{f305e444-cb9a-41a7-9f3d-8f4ec629e7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Generated Files\Debug">
+      <UniqueIdentifier>{bf7939b8-f4a9-41b2-8746-54d0c696e479}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Generated Files\Release">
+      <UniqueIdentifier>{4347ffd5-f805-426d-b985-02b31cb1f0ee}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_gui_qt.cpp">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="8playerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoginDialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LoginDialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_8playerApp.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_8playerApp.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MixPreviewWidget.cpp">
+      <Filter>Source Files\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDialog.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageDownloader.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageDownloader.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageDownloader.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MixPreviewWidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MixPreviewWidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicPlayer.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MusicPlayer.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MusicPlayer.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_mainWindow.cpp">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_main.cpp">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrentlyListen.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CurrentlyListen.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CurrentlyListen.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileView.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProfileView.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProfileView.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gui_qt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui_qt.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoginDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="APIWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="8playerApp.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoginDialog.h">
+      <Filter>Header Files\Windows</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ImageDownloader.h">
+      <Filter>Header Files\Utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MixPreviewWidget.h">
+      <Filter>Header Files\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MusicPlayer.h">
+      <Filter>Header Files\Utilities</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CurrentlyPlaying.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainWindow.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="main.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CurrentlyListen.h">
+      <Filter>Header Files\Windows</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProfileView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProfileView.h">
+      <Filter>Header Files\Windows</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_gui_qt.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LoginDialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainWindow.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="APIWindow.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CurrentlyPlaying.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ProfileView.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\playing_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\user_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\explore_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\8tracks.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

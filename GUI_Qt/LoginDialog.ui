@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>299</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>8player - Authentification</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#LoginDialog {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(11, 54, 86, 255), stop:1 rgba(0, 25, 61, 255));
+
+}</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <layout class="QFormLayout" name="formLayout">
+     <property name="fieldGrowthPolicy">
+      <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+     </property>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLineEdit" name="txtUsername">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit
+{
+border:1px solid #c9c9c9;
+background-color: #ffffff;
+min-height:28px;
+background-image: url(:/lineEdit/img_src/qlineedit_bg.jpg);
+background-repeat: repeat-x;
+	font: 75 11pt &quot;Myriad Pro&quot;;
+}
+
+QLineEdit:focus
+{
+	border :1px solid #0073af;
+}</string>
+       </property>
+       <property name="text">
+        <string>jell0wed</string>
+       </property>
+       <property name="placeholderText">
+        <string>Enter your username !</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QLineEdit" name="txtPassword">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit
+{
+border:1px solid #c9c9c9;
+background-color: #ffffff;
+min-height:28px;
+background-image: url(:/lineEdit/img_src/qlineedit_bg.jpg);
+background-repeat: repeat-x;
+	font: 75 11pt &quot;Myriad Pro&quot;;
+}
+
+QLineEdit:focus
+{
+	border :1px solid #0073af;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>***********</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>10</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="btnLogin">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(217, 217, 217, 255));
+border:none;
+border-radius:5px;
+font: 75 10pt &quot;Myriad Pro&quot;;
+font-weight: 700;
+color: rgb(72, 72, 72);
+min-height: 35px;
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(217, 217, 217, 255), stop:1 rgba(255, 255, 255, 255));
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Authentification</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="lblLogo">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="main.qrc">:/logo/Resources/8tracks.png</pixmap>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="main.qrc"/>
+ </resources>
+ <connections/>
+</ui>
