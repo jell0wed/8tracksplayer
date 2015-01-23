@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # Created by https://www.gitignore.io
 
 ### C++ ###
+=======
+>>>>>>> 78fe1ef2bbe8c9db7581412db2171db403589bec
 # Compiled Object files
 *.slo
 *.lo
@@ -29,6 +32,7 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
 
 
 ### Windows ###
@@ -247,3 +251,5 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
+=======
+>>>>>>> 78fe1ef2bbe8c9db7581412db2171db403589bec
